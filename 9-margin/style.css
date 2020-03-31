@@ -1,1 +1,6 @@
-
+.list-item {
+	color: blue;
+	font-weight: bold;
+	padding: 10px;
+	margin-bottom: 15px;
+}
