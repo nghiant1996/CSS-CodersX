@@ -1,1 +1,8 @@
-
+div{
+	color: blue;
+	font-weight: bold;
+	padding-left: 20px;
+	padding: 10px 10px 5px 15px;
+	padding: 10px 10px 5px; 
+	padding: 10px 5px;
+}
