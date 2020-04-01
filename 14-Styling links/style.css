@@ -1,1 +1,40 @@
+/*States:
+	a:link
+	a:visited
+	a:hover
+	a:active
+*/
+.demo-link {
+	color: #faa918;
 
+}
+.demo-link:link {
+	color: black;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+.demo-link:visited {
+	
+}
+
+.demo-link:hover {
+	text-decoration: underline;
+}
+
+.demo-link:active {
+
+}	
+
+.button-link {
+	text-decoration: none;
+    font-family: sans-serif;
+    background-color: #9d53e1;
+    padding: 7px 10px;
+    color: white;
+    border-radius: 3px;
+}
+
+.button-link:hover {
+	background-color: #3d1068;
+}
