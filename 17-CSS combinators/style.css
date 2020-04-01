@@ -1,1 +1,25 @@
+/*	CSS combinators
+	descendant selector (space)
+	child selector (>)
+	adjacent sibling selector (+)
+	general sibling selector (~)
+*/
+/*.list-1 {
+	color: red;
+}
 
+.list-1 .item-2 {
+	color: blue;
+}
+
+.list-1 > .item-1 {
+	border: 2px solid black;
+}
+
+.list-1 .item-2 + .item {
+	color: yellow;
+}
+
+.list-1 .item-1 ~ .item {
+	border: 1px solid black;
+}*/
