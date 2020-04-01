@@ -1,1 +1,11 @@
+.block {
+	display: block;
+	padding: 10px;
+	margin: 5px;
+}
 
+.inline {
+	display: inline;
+	padding: 10px;
+	margin: 5px; /*chi co hieu luc voi 2 ben trai phai*/
+}
