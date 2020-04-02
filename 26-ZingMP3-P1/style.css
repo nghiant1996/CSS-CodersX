@@ -1,1 +1,45 @@
+.album {
+	display: flex;
+}
 
+.cover {
+	height: 128px;
+	width: 128px;
+	background-color: #EEE;
+	background-image: url(./cover.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.overlay {
+	color: white;
+	font-family: sans-serif;
+	height: 100%;
+	background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+	display: flex;
+	align-items: flex-end;
+	box-sizing: border-box;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.infor {
+	font-family: sans-serif;
+	margin: 0 10px;
+	letter-spacing: 1px;
+}
+
+.album-name {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.singer {
+	font-size: 14px;
+	color: #999;
+}
+
+.view-count {
+	font-size: 13px;
+	color: #999;
+}
