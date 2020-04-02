@@ -1,1 +1,31 @@
+/*Cha
+	display: flex
+	flex-direction
+	justify-content
+	align-items
+  Con
+  	flex-basis: 
+  	flex-grow: ap dung khi container con cho trong;
 
+*/
+.container {
+	display: flex;
+	background-color: yellow;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.child-1 {
+	background-color: red;
+	flex-basis: 100px;
+}
+
+.child-2 {
+	background-color: green;
+	flex-grow: 1;
+}
+
+.child-3 {
+	background-color: blue;
+	flex-basis: 100px;
+}
