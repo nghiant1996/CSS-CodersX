@@ -1,1 +1,21 @@
+.album {
+	height: 128px;
+	width: 128px;
+    background-image: url(./cover.jpg);
+    background-size: cover;
+    background-position: center;
+	font-size: 40px;
+}
 
+.album .overlay {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(0,0,0,0.6);
+	opacity: 0;
+}
+
+.album:hover .overlay {
+	opacity: 1;
+}
