@@ -1,1 +1,111 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: Arial;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+.container {
+	height: 100%;
+	width: 65%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.board {
+	height: 80%;
+	width: 80%;
+	background-color: #E4F2E9;
+	border-radius: 40px;
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.row {
+	display: flex;
+
+}
+
+.row .main-icon {
+	height: 100px;
+	width: 100px;
+	background-color: #50C27F;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 15px;
+	border-radius: 30px;
+}
+
+.row .icon {
+	height: 100px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 15px;
+}
+
+h3 {
+	margin-top: 5px;
+	font-weight: normal;
+	color: #999;
+}
+
+h1 {
+	margin-top: 5px;
+	font-weight: normal;
+	color: #666;
+}
+
+
+
+.row .sub-content {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.row .sub-content .members {
+	width: 100px;
+	display: flex;
+}
+
+.row .sub-content h3 {
+	margin: 5px;
+	flex-grow: 1;
+
+}
+
+.member {
+	height: 30px;
+	width: 30px;
+	background-image: url(https://loremflickr.com/320/240);
+	background-size: cover;
+	background-position: center;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+
+.row .main-content {
+	flex-grow: 1;
+
+}
+
+hr {
+	size: 1px;
+	width: 100%;
+	color: #DDD;
+	margin: 20px 0px;
+}
 
