@@ -1,1 +1,130 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
 
+body {
+	font-family: Arial;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+.container {
+	height: 95%;
+	width: 65%;
+	background-color: #F6F9FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 40px;
+	box-sizing: border-box;
+
+}
+
+.container .board {
+	width: 100%;
+	height:100%;
+	background-color: white;
+	border: 1px solid #CCC;
+	border-radius: 2px;
+	display: flex;
+	flex-direction: column;
+}
+
+.container .board .header {
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+
+}
+
+.header h2 {
+	flex-grow: 1;
+	font-weight: normal;
+}
+
+.container .board .line {
+	border: 0.5px solid #CCC;
+}
+
+.container .board .cards {
+	display: flex;
+	padding: 20px;
+}
+
+.container .board .cards .card {
+	height: 50px;
+	width: 80px;
+	background-size: cover;
+	background-position: center;
+	border: 0.5px solid #7CACF5;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.image-1 {
+	background-image: url(./visa.png);
+}
+
+.image-2 {
+	background-image: url(./master-card.png);
+}
+
+.information {
+	display: flex;
+	flex-direction: column;
+}
+
+.information .has-user-name {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 20px;
+}
+
+label {
+	margin-bottom: 10px;
+	color: #666;
+	font-size: 25px;
+}
+input{
+	border: 0.5px solid #7CACF5;
+	height: 50px;
+	border-radius: 5px;
+}
+
+.information .has-card-infor {
+	display: flex;
+	padding: 20px 20px;
+}
+
+.card-number, .date, .ccv {
+	display: flex;
+	flex-direction: column;
+}
+
+.card-number {
+	flex-grow: 1;
+}
+
+.date, .ccv {
+	margin-left: 10px;
+}
+
+.board .has-notice {
+	display: flex;
+	margin: 20px;
+	align-items: center;
+
+}
+
+.board .has-notice i {
+	margin-right: 10px
+}
+
+.board .has-notice p {
+	font-size: 24px;
+	color: #999;
+}
