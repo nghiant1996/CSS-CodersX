@@ -1,1 +1,92 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
 
+body {
+	font-family: Arial;
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	margin: 0;
+}
+
+.container {
+	width: 60%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+}
+
+.container .board {
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	border-radius: 30px;
+	background-color: #2C3944;
+	padding: 40px 30px;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+.container .board .features {
+	display: flex;
+	flex-direction: column;
+}
+
+.container .board .has-search-box{
+	width: auto;
+}
+
+.container .board .has-search-box .search-box{
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+	background-color: #576169;
+	color: #C7C9CB;
+	padding: 20px;
+	margin-bottom: 20px;
+	border: none;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+
+.feature {
+	display: flex;
+	margin-top: 20px;
+	align-items: center;
+}
+
+.feature .icon {
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 30px;
+}
+
+.feature .feature-name {
+	font-size: 20px;
+	color: white;
+}
+
+.color-1{
+	background-color: #50C27F;
+}
+
+.color-2{
+	background-color: #408ED6;
+}
+
+.color-3{
+	background-color: #E6C22C;
+}
+
+.color-4{
+	background-color: #7151C4;
+}
