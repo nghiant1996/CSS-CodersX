@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facebook Login</title>
+  <script src="https://kit.fontawesome.com/4fde723f9d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&family=Mukta:wght@200;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <a class="logo" href="#" title="Go to Facebook home">facebook</a>
+    <div class="login-container">
+      <form class="login-form">
+        <table>
+          <tr>
+            <th>
+              <label>Email or phone</label>
+            </th>
+            <th>
+              <label>Password</label>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input type="email" name="">
+            </td>
+            <td>
+              <input type="password" name="">
+            </td>
+            <td>
+              <input class="login-button" type="submit" name="" value="Login">
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <div class="forgot-password">
+                <a href="#">Forgotten acount?</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
 
+
+  <div class="main">
+    <div class="recent-logins">
+      <div class="heading">Recent logins</div>
+      <div class="instruction">Click your picture or add an account.</div>
+      <div class="users">
+        <div class="user">
+          <div class="avatar"></div>
+          <div class="name">Tuan Nghia</div>
+        </div>
+
+        <div class="user">
+          <div class="avatar"></div>
+          <div class="name">Hoang Thuy</div>
+        </div>
+
+        <div class="user">
+          <div class="new-user"></div>
+          <div class="name">Add account</div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="create-account">
+      <div class="heading-1">Create a new account</div>
+      <div class="heading-2">It's quick and easy</div>
+      <form class="create-account-form">
+        <div class="name-container">
+          <input type="text" class="name" placeholder="First name"></input>
+          <input type="text" class="name" placeholder="Surname"></input>
+        </div>
+        <input class="email-phone" type="text" name="" placeholder="Mobile number or email address">
+        <input class="new-password" type="password" name="" placeholder="New password">
+
+      </form>
+
+      <div class="birthday-container">
+        <label class="main-label">Birthday</label><br>
+        <input type="date" name="">
+      </div>
+
+      <div class="gender-container">
+        <label class="main-label">Gender</label><br>
+        <form class="gender-form">
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label> 
+        </form>
+      </div>
+
+      <button class="signup-btn" type="submit">Sign up</button>
+    </div>
+  </div>
+
+</body>
+</html>

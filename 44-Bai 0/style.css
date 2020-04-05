@@ -1,1 +1,179 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+.header {
+	padding: 10px 150px 5px 150px;
+	background-color: #3A5998;
+	display: flex;
+	box-sizing: border-box;
 
+}
+
+.header .logo {
+	text-decoration: none;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #F7F8FA;
+    font-size: 40px;
+    flex-grow: 1;
+}
+
+th {
+	text-align: left;
+	color: white;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+td input {
+	border: 1px solid black;
+	height: 20px;
+}
+
+.login-button {
+	border-radius: 2px;
+	background-color: #4267B2;
+	border-color: #072665;
+	height: 24px;
+	color: white;
+	font-weight: bold;
+}
+
+.forgot-password a{
+	text-decoration: none;
+	color: #96AED4;
+	font-size: 13px;
+}
+
+
+.main {
+	background-color: #E9EBEE;
+	padding: 10px 150px 30px 150px;
+	display: flex;
+}
+
+.main .recent-logins {
+	flex-grow: 1;
+}
+
+.main .recent-logins .heading {
+  	font-family: 'Mukta', sans-serif;
+  	font-weight: 700;
+  	font-size: 38px;
+  	color: #333;
+}
+
+.main .recent-logins .instruction {
+  	font-family: 'Mukta', sans-serif;
+  	font-weight: 200;
+  	font-size: 22px;
+  	color: #333;
+  	margin-bottom: 10px;
+}
+
+.main .recent-logins .users {
+	display: flex;
+}
+
+.main .recent-logins .users .user {
+	margin-right: 15px;
+	border: 1px solid #BBB;
+	border-radius: 4px;
+}
+
+.user .avatar {
+	height: 160px;
+	width: 160px;
+	background-image: url(https://loremflickr.com/320/240);
+	background-size: cover;
+	background-position: center;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.user .name {
+	background-color: white;
+	text-align: center;
+	padding: 10px 0;
+	color: #4B4F56;
+	font-size: 18px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.user .new-user {
+	height: 160px;
+	width: 160px;
+	background-image: url(https://cdn1.iconfinder.com/data/icons/pinterest-ui-glyph/48/Sed-07-512.png);
+	background-size: cover;
+	background-position: center;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.main .create-account .heading-1 {
+	font-family: 'Mukta', sans-serif;
+  	font-weight: 700;
+  	font-size: 38px;
+  	color: #333;
+}
+
+.main .create-account .heading-2 {
+	font-family: 'Mukta', sans-serif;
+  	font-weight: 200;
+  	font-size: 22px;
+  	color: #333;
+  	margin-bottom: 10px;
+}
+
+.create-account .create-account-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.name-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.create-account input {
+	border: 1px solid #BEC7D9;
+	border-radius: 3px;
+	height: 30px;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.name-container .name {
+	width: 49%;
+}
+
+.main-label {
+	color: #90949C;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.gender-form {
+	display: flex;
+	align-items: center;
+}
+
+input[type='date'] {
+	margin-top: 7px;
+}
+
+input[type='radio'] {
+	margin: 0 10px 0 15px;
+}
+
+.signup-btn {
+	background-color: #598B44;
+	color: white;
+	font-size: 20px;
+	padding: 10px 40px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
